@@ -1,1 +1,1 @@
-# Terraform virtual WAN module
+# Virtual WAN module

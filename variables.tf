@@ -2,6 +2,7 @@ variable "metadata" {
   type = object({
     name = string
   })
+  description = "Generic metadata"
 }
 
 variable "spec" {
@@ -12,4 +13,5 @@ variable "spec" {
     regions           = list(string)
     private_dns_zones = list(string)
   })
+  description = "Virtual WAN specification"
 }
